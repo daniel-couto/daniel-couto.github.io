@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+html, body {
+    height: 100%;
+}
+
+body {
+    /*DOTS*/
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+    /*font-family: 'Duru Sans', sans-serif;*/
+    font-family: 'Julius Sans One', sans-serif;
+    color: #444444;
+}
+
+.container {
+    max-width: 800px;
+    height: 100%;
+}
+
+.vCard-outer-container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.vCard-inner-container {
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    display: table-cell;
+    width: 100%;
+}
+
+#vCard {
+    border: 1px solid #888888;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+#vCard header, #vCard footer {
+    margin: 13px;
+}
+
+#vCard h1 {
+    font-size: 55px;
+}
+#vCard aside {
+    font-size: 21px;
+}
+#vCard ul {
+    font-size: 34px;
+    list-style-type: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#vCard .avatar {
+    display: block;
+}

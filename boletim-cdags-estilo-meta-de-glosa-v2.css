@@ -1,0 +1,104 @@
+/*ESTILO GERAL DE LAYOUT*/
+.cdags-bol-general {
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: 0 auto;
+	width: 98%;
+	color: #444;
+}
+.cdags-bol-general header,
+.cdags-bol-general .content,
+.cdags-bol-general footer {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.cdags-bol-general header {
+    text-align: center;
+}
+.cdags-bol-general header img {
+    width: 100%;
+}
+.cdags-bol-general .content img {
+    width: 170%;
+}
+.cdags-bol-general footer {
+    width: 100%;
+    text-align: center;
+    font-size: 7pt;
+}
+.cdags-bol-general footer img {
+    width: 40%;
+}
+.cdags-bol-general p {
+	margin: 14px 0;
+}
+/*ESTILO GERAL DE ELEMENTOS*/
+.cdags-bol-general h1 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px;
+	text-align: center;
+	border-left: 2px solid #FC4;
+	background-color: #FE9;
+	box-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+.cdags-bol-general h2 {
+	font-weight: bold;
+	font-size: 13px;
+	margin: 10px 0 10px 0;
+}
+.cdags-bol-general h3 {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 10px 0 10px 0;
+}
+.cdags-bol-general h4 {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 10px 0 10px 0;
+}
+.cdags-bol-general blockquote {
+	font-size: 12px;
+	padding: 5px;
+	text-align: left;
+	margin: 10px 0px 10px 0px;
+	border-left: 2px solid #FC4;
+	box-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+.cdags-bol-general hr {
+	width: 80%;
+}
+.cdags-bol-general ul>li, .cdags-bol-general ol>li {
+	font-weight: bold;
+}
+.cdags-bol-general li ul>li, .cdags-bol-general li ol>li {
+	font-weight: normal;
+}
+/*ESTILO GERAL DE COMPONENTES*/
+.cdags-bol-general table {
+	font-size: 10pt;
+	border: 1px solid #888;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+.cdags-bol-general table thead,
+.cdags-bol-general table tfoot {
+	background-color: #FC4;
+}
+.cdags-bol-general table tr.total {
+	background-color: #FE9;
+}
+.cdags-bol-general table tr th,
+.cdags-bol-general table tr td {
+    height: 44px;
+    border: 1px solid #444;
+    padding: 3pt;
+    overflow-wrap: break-word;
+}
+.cdags-bol-general table .tbl-separator {
+    height: 20px;
+}

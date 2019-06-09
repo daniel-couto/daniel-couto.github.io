@@ -1,0 +1,116 @@
+.cdags-bol-general {
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: 0 auto;
+	width: 98%;
+}
+
+.cdags-bol-general header,
+.cdags-bol-general .content,
+.cdags-bol-general footer {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.cdags-bol-general header {
+    text-align: center;
+}
+.cdags-bol-general header img {
+    width: 100%;
+}
+.cdags-bol-general .content img {
+    width: 170%;
+}
+.cdags-bol-general footer {
+    width: 100%;
+    text-align: center;
+    font-size: 7pt;
+}
+.cdags-bol-general footer img {
+    width: 40%;
+}
+
+.cdags-bol-general h1 {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 40px 0 20px 0;
+}
+
+.cdags-bol-general h2 {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 32px 0 16px 0;
+}
+
+.cdags-bol-general h3 {
+	font-weight: normal;
+	font-size: 15px;
+	margin: 30px 0 15px 0;
+}
+
+.cdags-bol-general h4 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 28px 0 14px 0;
+}
+
+.cdags-bol-general h5 {
+	font-weight: normal;
+	font-size: 13px;
+	margin: 26px 0 13px 0;
+}
+
+.cdags-bol-general h6 {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 24px 0 12px 0;
+}
+
+.cdags-bol-general h1 small {
+	font-size: 80%;
+	font-weight: normal;
+	color: #777;
+}
+
+.cdags-bol-general p {
+	margin: 14px 0;
+}
+
+.cdags-bol-general table {
+	font-size: 9pt;
+	border: double;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cdags-bol-general table thead,
+.cdags-bol-general table tfoot {
+	background-color: #3d6099;
+	color: #fff;
+}
+
+.cdags-bol-general table tr th,
+.cdags-bol-general table tr td {
+    height: 44px;
+    border: 1px solid #444;
+    padding: 3pt;
+    overflow-wrap: break-word;
+}
+
+.cdags-bol-general table tbody th {
+    background-color: #e6e6ff;
+    color: #333;
+}
+
+.cdags-bol-general ul>li, .cdags-bol-general ol>li {
+	font-weight: bold;
+}
+
+.cdags-bol-general li ul>li, .cdags-bol-general li ol>li {
+	font-weight: normal;
+}
+
+.cdags-bol-general table .tbl-separator {
+    height: 20px;
+}
