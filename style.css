@@ -3,7 +3,7 @@ html {
 }
 .main {
     margin: 0px auto;
-    width: 600px;
+    width: 400px;
 }
 .header {
     margin: 10px;
@@ -11,7 +11,7 @@ html {
     height: 220px;
     background-color: rgb(143, 119, 119);
     background-image: url('cabecalho.png');
-    background-size: 100%;
+    background-size: 90%;
 }
 .body {
     margin: 10px 30px;
@@ -24,7 +24,7 @@ html {
     background-color: rgb(218, 229, 238);
     display: block;
     margin: 10px 10px;
-    width: 240px;
+    width: 180px;
     height: 80px;
     position: relative;
 }
