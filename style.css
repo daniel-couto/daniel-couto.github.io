@@ -3,12 +3,12 @@ html {
 }
 .main {
     margin: 0px auto;
-    width: 450px;
+    width: 400px;
 }
 .header {
     margin: 0px;
     display: block;
-    height: 180px;
+    height: 160px;
     background-color: rgb(143, 119, 119);
     background-image: url('cabecalho.png');
     background-repeat: no-repeat;
