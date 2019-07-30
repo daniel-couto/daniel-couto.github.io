@@ -5,7 +5,7 @@
             }
             .main {
                 margin: 0px auto;
-                width: 600px;
+                width: 100%;
                 background-color: #FAFAFA;
             }
             .header {
@@ -27,7 +27,7 @@
                 background-color: rgb(218, 229, 238);
                 display: block;
                 margin: 10px 10px;
-                width: 240px;
+                width: 40%;
                 height: 80px;
                 position: relative;
             }
