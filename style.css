@@ -53,13 +53,12 @@ html {
                 font-weight: 700;
             }
             .medicoes div h2 {
-                position: absolute;
-                top: 0px;
-                left: 0px;
                 font-size: 9;
                 font-weight: 900;
                 margin: 10px 5px;
                 text-align: center;
+                height: 100%;
+                float: left;
             }
             .medicoes div h2.p {
                 color: green;
