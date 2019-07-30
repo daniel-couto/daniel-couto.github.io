@@ -1,121 +1,113 @@
-
-            html {
-                font-family: 'Nunito', sans-serif;
-            }
-            .main {
-                margin: 0px auto;
-                width: 600px;
-                background-color: #FAFAFA;
-            }
-            .header {
-                margin: 10px;
-                display: block;
-                height: 220px;
-                background-color: rgb(143, 119, 119);
-                background-image: url('cabecalho.png');
-                background-size: 100%;
-            }
-            .body {
-                margin: 10px 30px;
-            }
-            .medicoes {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-            }
-            .medicoes div {
-                background-color: rgb(218, 229, 238);
-                display: block;
-                margin: 10px 10px;
-                width: 240px;
-                height: 80px;
-                position: relative;
-            }
-            .medicoes div h2 {
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                font-size: 9;
-                font-weight: 900;
-                margin: 10px 5px;
-                text-align: center;
-            }
-            .medicoes div h2.p {
-                color: green;
-            }
-            .medicoes div h2.n {
-                color: rgb(160, 48, 48);
-            }
-            .medicoes div h2.z {
-                color: rgb(195, 167, 40);
-            }
-            .medicoes div h2.p p {
-                width: 0;
-                border-left: 15px solid transparent;
-                border-right: 15px solid transparent;
-                border-bottom: 30px solid rgb(178, 197, 149);
-            }
-            .medicoes div h2.n p {
-                width: 0;
-                border-left: 15px solid transparent;
-                border-right: 15px solid transparent;
-                border-top: 30px solid rgb(206, 136, 136);
-            }
-            .medicoes div h2.z p {
-                height: 30px;
-                width: 30px;
-                background-color: rgb(238, 238, 146);
-                border-radius: 50%;
-            }
-            .medicoes div h2.down {
-
-            }
-            .medicoes div h2.none {
-
-            }
-            .medicoes div h1 {
-                margin-top: 15px;
-                margin-bottom: 5px;
-                color: blue;
-            }
-            .medicoes div h3 {
-                color: gray;
-                font-size: 11;
-                font-weight: 900;
-                margin: 0px;
-                text-align: center;
-            }
-            .medicoes div h4 {
-                color: gray;
-                font-size: 9;
-                margin-top: 5px;
-                text-align: center;
-                font-weight: 700;
-            }
-            h1 {
-                text-align: center;
-                font-size: 18;
-            }
-            .analise {
-                margin: 10px 10px;
-            }
-            h3 {
-                text-align: left;
-                font-size: 12;
-            }
-            p {
-                text-align: left;
-                font-size: 10;
-            }
-            .footer {
-                margin: 10px 5px;
-                display: block;
-                height: 50px;
-                background-color: rgb(30, 55, 100);
-            }
-            .footer h1 {
-                color: white;
-                font-weight: 900;
-                text-align: left;
-                font-size: 30;
-                margin-left: 30px;
-            }
+html {
+    font-family: 'Nunito', sans-serif;
+}
+.main {
+    margin: 0px auto;
+    width: 600px;
+}
+.header {
+    margin: 10px;
+    display: block;
+    height: 220px;
+    background-color: rgb(143, 119, 119);
+    background-image: url('cabecalho.png');
+    background-size: 100%;
+}
+.body {
+    margin: 10px 30px;
+}
+.medicoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.medicoes div {
+    background-color: rgb(218, 229, 238);
+    display: block;
+    margin: 10px 10px;
+    width: 240px;
+    height: 80px;
+    position: relative;
+}
+.medicoes div h2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 9;
+    font-weight: 900;
+    margin: 10px 5px;
+    text-align: center;
+}
+.medicoes div h2.p {
+    color: green;
+}
+.medicoes div h2.p p {
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid rgb(178, 197, 149);
+}
+.medicoes div h2.n {
+    color: rgb(160, 48, 48);
+}
+.medicoes div h2.n p {
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid rgb(206, 136, 136);
+}
+.medicoes div h2.z {
+    color: rgb(195, 167, 40);
+}
+.medicoes div h2.z p {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(238, 238, 146);
+    border-radius: 50%;
+}
+.medicoes div h1 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: blue;
+}
+.medicoes div h3 {
+    color: gray;
+    font-size: 11;
+    font-weight: 900;
+    margin: 0px;
+    text-align: center;
+}
+.medicoes div h4 {
+    color: gray;
+    font-size: 9;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+h1 {
+    text-align: center;
+    font-size: 18;
+}
+.analise {
+    margin: 10px 10px;
+}
+h3 {
+    text-align: left;
+    font-size: 12;
+}
+p {
+    text-align: left;
+    font-size: 10;
+}
+.footer {
+    margin: 10px 5px;
+    display: block;
+    height: 50px;
+    background-color: rgb(30, 55, 100);
+}
+.footer h1 {
+    color: white;
+    font-weight: 900;
+    text-align: left;
+    font-size: 30;
+    margin-left: 30px;
+}
