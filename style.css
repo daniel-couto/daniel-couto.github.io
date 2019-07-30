@@ -1,11 +1,9 @@
 
             html {
-                background: black;
                 font-family: 'Nunito', sans-serif;
             }
             .main {
                 margin: 0px auto;
-                width: 400px;
                 background-color: #FAFAFA;
             }
             .header {
@@ -27,7 +25,7 @@
                 background-color: rgb(218, 229, 238);
                 display: block;
                 margin: 10px 10px;
-                width: 160px;
+                width: 140px;
                 height: 80px;
                 position: relative;
             }
