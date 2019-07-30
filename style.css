@@ -3,18 +3,19 @@ html {
 }
 .main {
     margin: 0px auto;
-    width: 600px;
+    width: 450px;
 }
 .header {
-    margin: 10px;
+    margin: 0px;
     display: block;
-    height: 220px;
+    height: 180px;
     background-color: rgb(143, 119, 119);
     background-image: url('cabecalho.png');
-    background-size: 90%;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .body {
-    margin: 10px 30px;
+    margin: 10px 0px;
 }
     h1 {
         text-align: center;
@@ -27,8 +28,8 @@ html {
         .medicoes div {
             background-color: rgb(218, 229, 238);
             display: block;
-            margin: 0px 10px;
-            width: 160px;
+            margin: 10px 10px;
+            width: 200px;
             height: 80px;
             position: relative;
         }
@@ -88,7 +89,7 @@ html {
                     border-radius: 50%;
                 }
     .analise {
-        margin: 0px 10px;
+        margin: 10px 10px;
     }
         .analise h3 {
             text-align: left;
@@ -99,7 +100,7 @@ html {
             font-size: 10;
         }
     .footer {
-        margin: 0px 5px;
+        margin: 10px 0px;
         display: block;
         height: 50px;
         background-color: rgb(30, 55, 100);
