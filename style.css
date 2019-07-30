@@ -11,7 +11,8 @@ html {
     height: 220px;
     background-color: rgb(143, 119, 119);
     background-image: url('cabecalho.png');
-    background-size: 90%;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .body {
     margin: 10px 30px;
@@ -24,7 +25,7 @@ html {
     background-color: rgb(218, 229, 238);
     display: block;
     margin: 10px 10px;
-    width: 180px;
+    width: 160px;
     height: 80px;
     position: relative;
 }
