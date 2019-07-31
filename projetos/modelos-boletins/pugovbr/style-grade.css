@@ -25,6 +25,8 @@ html {
     .medicoes {
         display: grid;
         grid-template-columns: 1fr;
+        margin: 0 auto;
+        text-align: center;
     }
         .medicoes div {
             background-color: rgb(218, 229, 238);
