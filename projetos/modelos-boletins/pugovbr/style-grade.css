@@ -16,6 +16,7 @@ html {
 }
 .body {
     margin: 10px 0px;
+    text-align: center;
 }
     h1 {
         text-align: center;
@@ -30,11 +31,10 @@ html {
             display: block;
             margin: 10px 10px;
             width: 180px;
-            height: 80px;
             position: relative;
         }
             .medicoes div h1 {
-                margin-top: 15px;
+                margin-top: 10px;
                 margin-bottom: 5px;
                 color: blue;
             }
