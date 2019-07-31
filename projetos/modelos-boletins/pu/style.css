@@ -65,25 +65,25 @@ html {
             }
                 .medicoes div h2.p p {
                     width: 0;
-                    border-left: 15px solid transparent;
-                    border-right: 15px solid transparent;
-                    border-bottom: 30px solid rgb(178, 197, 149);
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-bottom: 20px solid rgb(178, 197, 149);
                 }
             .medicoes div h2.n {
                 color: rgb(160, 48, 48);
             }
                 .medicoes div h2.n p {
                     width: 0;
-                    border-left: 15px solid transparent;
-                    border-right: 15px solid transparent;
-                    border-top: 30px solid rgb(206, 136, 136);
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-top: 20px solid rgb(206, 136, 136);
                 }
             .medicoes div h2.z {
                 color: rgb(195, 167, 40);
             }
                 .medicoes div h2.z p {
-                    height: 30px;
-                    width: 30px;
+                    height: 20px;
+                    width: 20px;
                     background-color: rgb(238, 238, 146);
                     border-radius: 50%;
                 }
