@@ -130,8 +130,10 @@ html {
         }
 footer {
     width: 100%;
-    font-size: 3;
     text-align: center;
+}
+footer p {
+    font-size: 9;
 }
 footer img {
     width: 40%;
