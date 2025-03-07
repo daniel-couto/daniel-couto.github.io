@@ -11,6 +11,10 @@ body {
     color: #444444;
 }
 
+ul.list-inline li {
+    display: inline;
+}
+
 .container {
     max-width: 800px;
     height: 100%;
