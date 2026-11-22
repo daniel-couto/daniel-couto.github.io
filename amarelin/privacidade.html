@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacidade do Amarelin</title>
+<meta name="description" content="Política de Privacidade do aplicativo Amarelin.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="logo.png" alt="Logo do Amarelin">
+    <div>
+      <h1>Política de Privacidade</h1>
+      <p class="sub">Amarelin · vigente desde 22 de novembro de 2026</p>
+    </div>
+  </header>
+
+  <p>Esta política explica quais dados o aplicativo Amarelin (Windows e Android) trata, onde eles ficam e com quem são compartilhados. O Amarelin é um aplicativo pessoal, sem fins comerciais, mantido por uma pessoa física. Ele não tem servidor próprio, não exibe anúncios e não vende nem cede dados a ninguém.</p>
+
+  <h2>1. Dados que o app trata</h2>
+  <ul>
+    <li><strong>Dados financeiros que você cadastra ou importa:</strong> contas, lançamentos, cartões, investimentos, contracheques, contas recorrentes, metas, comprovantes e anexos.</li>
+    <li><strong>Documentos importados:</strong> extratos e contracheques em PDF ou imagem. O reconhecimento de texto (OCR) é feito no próprio aparelho, sem enviar o documento para fora.</li>
+    <li><strong>Dados de Open Finance</strong>, se você conectar um banco: contas, saldos e transações recebidos pela Pluggy (ver item 4).</li>
+    <li><strong>Autorização da conta Google</strong>, se você ativar a sincronização: um token de acesso limitado à pasta do app no Drive (ver item 3).</li>
+  </ul>
+  <p>O app não coleta dados de localização, contatos, publicidade ou estatísticas de uso, e não tem rastreadores próprios.</p>
+
+  <h2>2. Onde os dados ficam</h2>
+  <p>Tudo fica no seu aparelho, num banco de dados cifrado com uma chave derivada do seu PIN (AES-256). Senhas, tokens e credenciais ficam no cofre de segredos do sistema operacional. Não existe servidor do Amarelin recebendo seus dados.</p>
+
+  <h2>3. Google Drive e dados do usuário do Google</h2>
+  <p>A sincronização entre computador e celular é opcional. Quando você a ativa, o Amarelin pede à sua conta Google somente o escopo <code>https://www.googleapis.com/auth/drive.appdata</code>, que dá acesso apenas à pasta oculta e exclusiva do próprio app no seu Google Drive (a <em>appDataFolder</em>).</p>
+  <ul>
+    <li><strong>O que o app acessa:</strong> só os arquivos que ele mesmo criou nessa pasta. Ele não lê, lista nem altera seus outros arquivos do Drive, e não acessa seu e-mail, contatos ou perfil.</li>
+    <li><strong>Para que usa:</strong> guardar e ler os pacotes de sincronização, que já saem do aparelho cifrados com uma chave de sincronização que existe só nos seus aparelhos. O Google armazena esses arquivos, mas não consegue ler o conteúdo.</li>
+    <li><strong>Com quem compartilha:</strong> ninguém. Os dados vão diretamente do seu aparelho para o seu Drive, sem passar por servidor do Amarelin.</li>
+    <li><strong>Como revogar:</strong> toque em Desconectar na tela de sincronização do app ou remova o acesso do Amarelin em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Para apagar os arquivos da pasta do app, use, no Google Drive pela web, Configurações → Gerenciar apps → Amarelin → Excluir dados de app ocultos.</li>
+  </ul>
+  <p>O uso e a transferência, para qualquer outro app, de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado. Os dados do Google não são usados para publicidade, não são vendidos e não são usados para treinar modelos de inteligência artificial.</p>
+
+  <h2>4. Open Finance (Pluggy)</h2>
+  <p>Se você decidir conectar uma instituição financeira, a conexão é feita pela <a href="https://pluggy.ai">Pluggy</a>, empresa que opera o Open Finance. O consentimento é dado por você na tela da própria Pluggy e da instituição, e as credenciais bancárias são tratadas por elas, não pelo Amarelin. O app usa as suas credenciais da Pluggy, guardadas no cofre do sistema, para buscar contas, saldos e transações e gravá-los no banco local cifrado. O tratamento feito pela Pluggy segue a política de privacidade dela. Você pode revogar o consentimento na Pluggy ou na sua instituição a qualquer momento.</p>
+
+  <h2>5. Outros serviços consultados</h2>
+  <p>Para cálculos de rendimento e projeção de preços, o app consulta índices públicos (CDI, SELIC, IPCA) no Banco Central do Brasil e no IBGE. Essas consultas não enviam dados pessoais. No Android, o reconhecimento de texto usa a biblioteca Google ML Kit, que roda no aparelho.</p>
+
+  <h2>6. Retenção e exclusão</h2>
+  <p>Os dados ficam enquanto você os mantiver. Você pode excluir lançamentos e cadastros no próprio app. Desinstalar o app remove o banco local; os arquivos de sincronização no Drive podem ser apagados como descrito no item 3.</p>
+
+  <h2>7. Seus direitos (LGPD)</h2>
+  <p>Como os dados ficam sob o seu controle, você exerce diretamente os direitos de acesso, correção, portabilidade e exclusão previstos na Lei Geral de Proteção de Dados (Lei 13.709/2018), pelo próprio app e pela sua conta Google.</p>
+
+  <h2>8. Alterações e contato</h2>
+  <p>Mudanças nesta política serão publicadas nesta página, com nova data de vigência. Dúvidas podem ser enviadas ao e-mail de suporte exibido na tela de autorização do Google do Amarelin.</p>
+
+  <footer>
+    <a href="index.html">Página inicial do Amarelin</a>
+  </footer>
+</main>
+</body>
+</html>
